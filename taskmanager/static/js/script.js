@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', function() {
-    let sidenav = document.querySelectorAll('.sidenav');
+$(function() {
+    let sidenav = $('.sidenav')
     M.Sidenav.init(sidenav);
   });
