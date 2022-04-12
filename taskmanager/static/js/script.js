@@ -1,8 +1,16 @@
 $(function () {
-  let sidenav = $('.sidenav')
-  M.Sidenav.init(sidenav);
-});
+  // sidenav initialization
+  $('.sidenav').sidenav();
 
-$(document).ready(function () {
+  // modal initialization
   $('.modal').modal();
+
+  // datepicker initialization
+  $('.datepicker').datepicker({
+    format: "dd mmm, yyyy"
+  });
+  
+
+  // select initialization
+  $('select').formSelect();
 });
