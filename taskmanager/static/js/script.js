@@ -9,7 +9,6 @@ $(function () {
   $('.datepicker').datepicker({
     format: "dd mmm, yyyy"
   });
-  
 
   // select initialization
   $('select').formSelect();
